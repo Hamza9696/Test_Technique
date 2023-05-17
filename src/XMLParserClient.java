@@ -14,7 +14,7 @@ public class XMLParserClient {
             DocumentBuilder builder = factory.newDocumentBuilder();
 
             // Parse the XML file
-            Document document = builder.parse("/Users/hamzayaich/Downloads/TEST_TECHNIQUE/bessonfichierspourexercice/client.xml");
+            Document document = builder.parse("./XML_files/client.xml");
 
             // Get the root element
             Element rootElement = document.getDocumentElement();

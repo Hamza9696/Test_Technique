@@ -14,7 +14,7 @@ public class XMLParserTarif {
             DocumentBuilder builder = factory.newDocumentBuilder();
 
             // Parse the XML file
-            Document document = builder.parse("/Users/hamzayaich/Downloads/TEST_TECHNIQUE/bessonfichierspourexercice/tarif.xml");
+            Document document = builder.parse("./XML_files/tarif.xml");
 
             // Get the root element
             Element rootElement = document.getDocumentElement();
