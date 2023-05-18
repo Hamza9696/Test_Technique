@@ -18,17 +18,39 @@ public class Main {
 
 		System.out.println(clients.size());
 		
+        for (int i = 0; i < clients.size(); i++) {
+            Client c = clients.get(i);
+            System.out.println(c.toString());
+        }
+		
 		List<Tarif> tarifs = XmlTarifMapper.getTarifs();
 
 		System.out.println(tarifs.size());
+		
+        for (int i = 0; i < tarifs.size(); i++) {
+        	Tarif t = tarifs.get(i);
+            System.out.println(t.toString());
+        }
 
 		List<ConditionTaxation> conditionTaxations = XmlConditiOnTaxationMapper.getConditionTaxations();
 
 		System.out.println(conditionTaxations.size());
 		
+        for (int i = 0; i < conditionTaxations.size(); i++) {
+        	ConditionTaxation cT = conditionTaxations.get(i);
+            System.out.println(cT.toString());
+        }
+		
 		List<Localite> localites = XmlLocaliteMapper.getLocalites();
 
 		System.out.println(localites.size());
+		
+        for (int i = 0; i < localites.size()-1500; i++) {
+        	Localite l = localites.get(i);
+            System.out.println(l.toString());
+        }
+        
+        
 
 	}
 }

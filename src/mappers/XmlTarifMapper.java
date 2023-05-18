@@ -1,15 +1,9 @@
 package mappers;
 import org.w3c.dom.*;
-import org.xml.sax.SAXException;
 
-import models.Client;
 import models.Tarif;
 import parsers.XmlParser;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;

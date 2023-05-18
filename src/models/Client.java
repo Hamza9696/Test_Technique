@@ -46,4 +46,13 @@ public class Client {
     public void setVille(String ville) {
         this.ville = ville;
     }
+    
+    public String toString() {
+        return "Client{" +
+                "codePostal='" + codePostal + '\'' +
+                ", idClient=" + idClient +
+                ", raisonSociale='" + raisonSociale + '\'' +
+                ", ville='" + ville + '\'' +
+                '}';
+    }
 }

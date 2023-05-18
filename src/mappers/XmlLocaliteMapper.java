@@ -1,13 +1,11 @@
 package mappers;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
-import models.ConditionTaxation;
 import models.Localite;
 import parsers.XmlParser;
 

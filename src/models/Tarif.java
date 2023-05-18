@@ -65,4 +65,14 @@ public class Tarif {
     public void setZone(int zone) {
         this.zone = zone;
     }
+    
+    public String toString() {
+        return "Tarif{" +
+                "codeDepartement='" + codeDepartement + '\'' +
+                ", idClient=" + idClient +
+                ", idClientHeritage=" + idClientHeritage +
+                ", montant=" + montant +
+                ", zone=" + zone +
+                '}';
+    }
 }

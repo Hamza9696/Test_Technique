@@ -65,4 +65,14 @@ this.useTaxePortPayeGenerale = useTaxePortPayeGenerale;
     public void setUseTaxePortPayeGenerale(boolean useTaxePortPayeGenerale) {
         this.useTaxePortPayeGenerale = useTaxePortPayeGenerale;
     }
+    
+    public String toString() {
+        return "ConditionTaxation{" +
+                "idClient=" + idClient +
+                ", taxePortDu=" + taxePortDu +
+                ", taxePortPaye=" + taxePortPaye +
+                ", useTaxePortDuGenerale=" + useTaxePortDuGenerale +
+                ", useTaxePortPayeGenerale=" + useTaxePortPayeGenerale +
+                '}';
+    }
 }
