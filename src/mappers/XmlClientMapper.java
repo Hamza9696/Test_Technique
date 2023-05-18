@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class XmlClientMapper {
 	
-	final private static String filePath = "./XML_files/client.xml";
+	final private static String filePath = "./assets/xml/client.xml";
 
 	private static List<Client> map(Element rootElement) {
 		

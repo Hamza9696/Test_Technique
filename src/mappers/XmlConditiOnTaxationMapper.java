@@ -11,7 +11,7 @@ import java.util.List;
 
 public class XmlConditiOnTaxationMapper {
 	
-	final private static String filePath = "./XML_files/conditiontaxation.xml";
+	final private static String filePath = "./assets/xml/conditiontaxation.xml";
 
 	public static List<ConditionTaxation> map(Element rootElement) {
 		

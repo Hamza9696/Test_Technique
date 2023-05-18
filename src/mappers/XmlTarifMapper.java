@@ -11,7 +11,7 @@ import java.util.List;
 public class XmlTarifMapper {
 
 
-	final private static String filePath = "./XML_files/tarif.xml";
+	final private static String filePath = "./assets/xml/tarif.xml";
 
 	public static List<Tarif> map(Element rootElement) {
 		

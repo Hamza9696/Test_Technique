@@ -10,7 +10,7 @@ import models.Localite;
 import parsers.XmlParser;
 
 public class XmlLocaliteMapper {
-	final private static String filePath = "./XML_files/localite.xml";
+	final private static String filePath = "./assets/xml/localite.xml";
 
 	public static List<Localite> map(Element rootElement) {
 		
