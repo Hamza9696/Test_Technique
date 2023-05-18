@@ -1,3 +1,4 @@
+package models;
 public class Client {
     private String codePostal;
     private int idClient;
@@ -5,6 +6,7 @@ public class Client {
     private String ville;
 
     // Constructor
+    public Client() {}
     public Client(String codePostal, int idClient, String raisonSociale, String ville) {
         this.codePostal = codePostal;
         this.idClient = idClient;

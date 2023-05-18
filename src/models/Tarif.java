@@ -1,3 +1,4 @@
+package models;
 import java.math.BigDecimal;
 
 public class Tarif {
@@ -6,11 +7,20 @@ public class Tarif {
     private int idClientHeritage;
     private BigDecimal montant;
     private int zone;
+    
+    public Tarif() {}
 
-    public Tarif(String codeDepartement, int idClient, int idClientHeritage, BigDecimal montant, int zone) {
+    public Tarif(String codeDepartement, Integer idClient, Integer idClientHeritage, BigDecimal montant, int zone) {
         this.codeDepartement = codeDepartement;
         this.idClient = idClient;
         this.idClientHeritage = idClientHeritage;
+        this.montant = montant;
+        this.zone = zone;
+    }
+    
+    public Tarif(String codeDepartement, Integer idClient, BigDecimal montant, int zone) {
+        this.codeDepartement = codeDepartement;
+        this.idClient = idClient;
         this.montant = montant;
         this.zone = zone;
     }
@@ -24,19 +34,19 @@ public class Tarif {
         this.codeDepartement = codeDepartement;
     }
 
-    public int getIdClient() {
+    public Integer getIdClient() {
         return idClient;
     }
 
-    public void setIdClient(int idClient) {
+    public void setIdClient(Integer idClient) {
         this.idClient = idClient;
     }
 
-    public int getIdClientHeritage() {
+    public Integer getIdClientHeritage() {
         return idClientHeritage;
     }
 
-    public void setIdClientHeritage(int idClientHeritage) {
+    public void setIdClientHeritage(Integer idClientHeritage) {
         this.idClientHeritage = idClientHeritage;
     }
 
